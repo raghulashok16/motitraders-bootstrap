@@ -21,6 +21,8 @@
 </head>
 
 <body>
+
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary bg-gradient ">
         <div class="container-fluid">
             <!-- company name -->
@@ -33,15 +35,6 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <!-- home button
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                    </li> -->
-                    <!-- about us button
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">About Us</a>
-                    </li> -->
-
                     <!-- product button -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown"
@@ -63,6 +56,8 @@
             </div>
         </div>
     </nav>
+
+    <!-- introduction section -->
     <section class="introduction">
         <div class="container mt-5">
             <h1 class="display-4">
@@ -86,6 +81,8 @@
             </div>
         </div>
     </section>
+
+    <!-- procduction images section -->
     <section class="production">
         <div class="container mt-lg-5 mt-3 mb-3">
             <div class="row">
@@ -121,11 +118,14 @@
             </div>
         </div>
     </section>
+
+    <!-- carousel title section -->
     <section class="caro mt-5 mb-5">
         <div class="container bg-secondary">
 
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                    <!-- title 1 and 2 -->
                     <div class="carousel-item active">
                         <div>
                             <div class="row justify-content-center text-light">
@@ -144,6 +144,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- title 3 and 4 -->
                     <div class="carousel-item">
                         <div>
                             <div class="row justify-content-center text-light">
@@ -162,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- title 5 and 6 -->
                     <div class="carousel-item">
                         <div>
                             <div class="row justify-content-center text-light">
@@ -195,6 +196,27 @@
                     </button>
                 </div>
             </div>
+    </section>
+
+    <!-- contact form section -->
+    <section class="contact mt-5">
+        <div class="container">
+            <h3 class="mb-3">Contact Form</h3>
+            <form class="row g-3 needs-validation" novalidate>
+                <!-- First Name input -->
+                <div class="col-md-4">
+                    <label for="fName" class="form-label">First Name</label>
+                    <input type="text" id="fName" class="form-control" value="Raghul">
+                </div>
+                <!-- Last Name input -->
+                <div class="col-md-4">
+                    <label for="lName" class="form-label">Last Name</label>
+                    <input type="text" id="lName" class="form-control" value="Ashok">
+                </div>
+
+            </form>
+
+        </div>
     </section>
 
 
